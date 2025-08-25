@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histomercial - Buwan ng Kasaysayan 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+        
+        .font-playfair { font-family: 'Playfair Display', serif; }
+        .font-inter { font-family: 'Inter', sans-serif; }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 50%, #7c2d12 100%);
+        }
+        
+        .poster-card {
+            transition: all 0.3s ease;
+            background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+        }
+        
+        .poster-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .decorative-border {
+            background: linear-gradient(90deg, #dc2626, #ea580c, #d97706, #ca8a04);
+            height: 4px;
+        }
+        
+        .cultural-pattern {
+            background-image: 
+                radial-gradient(circle at 25% 25%, #fbbf24 2px, transparent 2px),
+                radial-gradient(circle at 75% 75%, #dc2626 2px, transparent 2px);
+            background-size: 40px 40px;
+            opacity: 0.1;
+        }
+    </style>
+</head>
+<body class="font-inter bg-gray-50">
+    <!-- Header -->
+    <header class="hero-gradient text-white relative overflow-hidden">
+        <div class="cultural-pattern absolute inset-0"></div>
+        <div class="relative z-10 container mx-auto px-6 py-16">
+            <div class="text-center max-w-4xl mx-auto">
+                <!-- Philippine Flag Colors Accent -->
+                <div class="flex justify-center mb-6">
+                    <div class="flex space-x-2">
+                        <div class="w-4 h-4 bg-blue-600 rounded-full"></div>
+                        <div class="w-4 h-4 bg-red-600 rounded-full"></div>
+                        <div class="w-4 h-4 bg-yellow-400 rounded-full"></div>
+                    </div>
+                </div>
+                
+                <h1 class="font-playfair text-5xl md:text-7xl font-bold mb-4 leading-tight">
+                    Histomercial
+                </h1>
+                
+                <div class="decorative-border w-32 mx-auto mb-6"></div>
+                
+                <h2 class="font-playfair text-2xl md:text-3xl font-semibold mb-4 text-yellow-200">
+                    Buwan ng Kasaysayan 2025
+                </h2>
+                
+                <p class="text-xl md:text-2xl font-light mb-8 text-blue-100">
+                    "Diwa ng Kasaysayan, Kabilin sa Kabataan"
+                </p>
+                
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 max-w-2xl mx-auto">
+                    <p class="text-lg leading-relaxed">
+                        Samahan kami sa paglalakbay tungo sa ating kasaysayan sa pamamagitan ng mga makabagong histomercial na ginawa ng mga estudyante.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Decorative Wave -->
+        <div class="absolute bottom-0 left-0 right-0">
+            <svg viewBox="0 0 1200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 120L50 105C100 90 200 60 300 45C400 30 500 30 600 37.5C700 45 800 60 900 67.5C1000 75 1100 75 1150 75L1200 75V120H1150C1100 120 1000 120 900 120C800 120 700 120 600 120C500 120 400 120 300 120C200 120 100 120 50 120H0Z" fill="#f9fafb"/>
+            </svg>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-16">
+        <!-- Introduction Section -->
+        <section class="text-center mb-16">
+            <h3 class="font-playfair text-3xl md:text-4xl font-semibold text-gray-800 mb-6">
+                Mga Histomercial ng mga Estudyante
+            </h3>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                Tuklasin ang mga kwentong nagbigay-hugis sa ating bansa sa pamamagitan ng mga creative at educational na histomercial. 
+                Bawat poster ay nagbubukas ng pintuan sa mga mahalagang kabanata ng ating kasaysayan.
+            </p>
+        </section>
+
+        <!-- Poster Gallery Grid -->
+        <section class="mb-16">
+            <!-- Grade 7 Section -->
+            <div class="mb-12">
+                <h3 class="font-playfair text-2xl font-semibold text-gray-800 mb-6 text-center">Grade 7 - Mga Bayaning Pilipino</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Dagohoy -->
+                    <div class="poster-card rounded-2xl p-6 border border-gray-200 shadow-lg">
+                        <div class="rounded-xl h-64 mb-4 overflow-hidden">
+                            <img src="public/Grade 7/Dagohoy.jpg" alt="Dagohoy" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="font-playfair text-xl font-semibold text-gray-800 mb-2">Francisco Dagohoy</h4>
+                        <p class="text-gray-600 text-sm mb-4">Ang pinakamahabang himagsikan sa Bohol na tumagal ng 85 taon laban sa mga Kastila.</p>
+                        <a href="https://youtu.be/__a3T7xLw1o?si=vq4lRLt24yV_nnao" target="_blank" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 rounded-lg transition-colors block text-center">
+                            Panoorin ang Histomercial
+                        </a>
+                    </div>
+
+                    <!-- Gabriela Silang -->
+                    <div class="poster-card rounded-2xl p-6 border border-gray-200 shadow-lg">
+                        <div class="rounded-xl h-64 mb-4 overflow-hidden">
+                            <img src="public/Grade 7/Gabriela Silang.jpg" alt="Gabriela Silang" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="font-playfair text-xl font-semibold text-gray-800 mb-2">Gabriela Silang</h4>
+                        <p class="text-gray-600 text-sm mb-4">Ang unang babaeng lider ng himagsikan sa Pilipinas na nanguna sa pakikibaka sa Ilocos.</p>
+                        <a href="https://youtu.be/FXj-tuYNb-Q?si=sg0SesLJV3-a1MnV" target="_blank" class="w-full bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-4 rounded-lg transition-colors block text-center">
+                            Panoorin ang Histomercial
+                        </a>
+                    </div>
+
+                    <!-- Sikatuna -->
+                    <div class="poster-card rounded-2xl p-6 border border-gray-200 shadow-lg">
+                        <div class="rounded-xl h-64 mb-4 overflow-hidden">
+                            <img src="public/Grade 7/Sikatuna.jpg" alt="Sikatuna" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="font-playfair text-xl font-semibold text-gray-800 mb-2">Datu Sikatuna</h4>
+                        <p class="text-gray-600 text-sm mb-4">Ang datu ng Bohol na nakipag-sandugo kay Miguel López de Legazpi noong 1565.</p>
+                        <a href="https://youtu.be/4QbNROr1uUM?si=ssNwRnAUzqGz-z7K" target="_blank" class="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-4 rounded-lg transition-colors block text-center">
+                            Panoorin ang Histomercial
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grade 8 Section -->
+            <div class="mb-12">
+                <h3 class="font-playfair text-2xl font-semibold text-gray-800 mb-6 text-center">Grade 8 - Mga Rebolusyonaryo</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Bonifacio -->
+                    <div class="poster-card rounded-2xl p-6 border border-gray-200 shadow-lg">
+                        <div class="rounded-xl h-64 mb-4 overflow-hidden">
+                            <img src="public/Grade  8/Bonifacio.png" alt="Andres Bonifacio" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="font-playfair text-xl font-semibold text-gray-800 mb-2">Andres Bonifacio</h4>
+                        <p class="text-gray-600 text-sm mb-4">Ang Supremo ng Katipunan at ang "Ama ng Himagsikang Pilipino".</p>
+                        <a href="https://youtu.be/77zqosa7_uc?si=owfyJirD7hC28bMj" target="_blank" class="w-full bg-red-600 hover:bg-red-700 text-white font-medium py-3 px-4 rounded-lg transition-colors block text-center">
+                            Panoorin ang Histomercial
+                        </a>
+                    </div>
+
+                    <!-- Emilio Aguinaldo -->
+                    <div class="poster-card rounded-2xl p-6 border border-gray-200 shadow-lg">
+                        <div class="rounded-xl h-64 mb-4 overflow-hidden">
+                            <img src="public/Grade  8/Emilio Aguinaldo.png" alt="Emilio Aguinaldo" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="font-playfair text-xl font-semibold text-gray-800 mb-2">Emilio Aguinaldo</h4>
+                        <p class="text-gray-600 text-sm mb-4">Ang unang Pangulo ng Pilipinas at nagpahayag ng kalayaan noong Hunyo 12, 1898.</p>
+                        <a href="https://youtu.be/fEdypWSASm8?si=5pXvq3OIRBx7lLvP" target="_blank" class="w-full bg-yellow-600 hover:bg-yellow-700 text-white font-medium py-3 px-4 rounded-lg transition-colors block text-center">
+                            Panoorin ang Histomercial
+                        </a>
+                    </div>
+
+                    <!-- Gomburza -->
+                    <div class="poster-card rounded-2xl p-6 border border-gray-200 shadow-lg">
+                        <div class="rounded-xl h-64 mb-4 overflow-hidden">
+                            <img src="public/Grade  8/Gomburza.jpg" alt="Gomburza" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="font-playfair text-xl font-semibold text-gray-800 mb-2">GOMBURZA</h4>
+                        <p class="text-gray-600 text-sm mb-4">Mariano Gomez, Jose Burgos, at Jacinto Zamora - ang tatlong paring naging martir.</p>
+                        <a href="https://youtu.be/m0_v51o1GUw?si=jBllzhhfz4hfqfoB" target="_blank" class="w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-4 rounded-lg transition-colors block text-center">
+                            Panoorin ang Histomercial
+                        </a>
+                    </div>
+
+                    <!-- Sumuroy -->
+                    <div class="poster-card rounded-2xl p-6 border border-gray-200 shadow-lg">
+                        <div class="rounded-xl h-64 mb-4 overflow-hidden">
+                            <img src="public/Grade  8/Sumuroy.jpg" alt="Sumuroy" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="font-playfair text-xl font-semibold text-gray-800 mb-2">Juan Ponce Sumuroy</h4>
+                        <p class="text-gray-600 text-sm mb-4">Nanguna sa himagsikan sa Samar laban sa sapilitang paggawa (polo y servicios).</p>
+                        <a href="https://youtu.be/HHjVYN8rLlk" target="_blank" class="w-full bg-orange-600 hover:bg-orange-700 text-white font-medium py-3 px-4 rounded-lg transition-colors block text-center">
+                            Panoorin ang Histomercial
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grade 9 Section -->
+            <div class="mb-12">
+                <h3 class="font-playfair text-2xl font-semibold text-gray-800 mb-6 text-center">Grade 9 - Mga Bayaning Makabayan</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Jose Rizal -->
+                    <div class="poster-card rounded-2xl p-6 border border-gray-200 shadow-lg">
+                        <div class="rounded-xl h-64 mb-4 overflow-hidden">
+                            <img src="public/Grade  9/Jose Rizal.png" alt="Jose Rizal" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="font-playfair text-xl font-semibold text-gray-800 mb-2">Dr. Jose Rizal</h4>
+                        <p class="text-gray-600 text-sm mb-4">Ang Pambansang Bayani ng Pilipinas at may-akda ng Noli Me Tangere at El Filibusterismo.</p>
+                        <a href="https://youtu.be/gtitZJolFj8?si=fhdgMB8SRga1A8bo" target="_blank" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 rounded-lg transition-colors block text-center">
+                            Panoorin ang Histomercial
+                        </a>
+                    </div>
+
+                    <!-- Macario Sakay -->
+                    <div class="poster-card rounded-2xl p-6 border border-gray-200 shadow-lg">
+                        <div class="rounded-xl h-64 mb-4 overflow-hidden">
+                            <img src="public/Grade  9/Macario Sakay.png" alt="Macario Sakay" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="font-playfair text-xl font-semibold text-gray-800 mb-2">Macario Sakay</h4>
+                        <p class="text-gray-600 text-sm mb-4">Nagpatuloy sa pakikibaka para sa kalayaan kahit matapos ang Digmaang Filipino-Amerikano.</p>
+                        <a href="https://youtu.be/Df-8gM2p5Kc?si=0YFQNY8TRPc1MBOG" target="_blank" class="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-4 rounded-lg transition-colors block text-center">
+                            Panoorin ang Histomercial
+                        </a>
+                    </div>
+
+                    <!-- Teresa Magbanua -->
+                    <div class="poster-card rounded-2xl p-6 border border-gray-200 shadow-lg">
+                        <div class="rounded-xl h-64 mb-4 overflow-hidden">
+                            <img src="public/Grade  9/Teresa Magbanua.jpg" alt="Teresa Magbanua" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="font-playfair text-xl font-semibold text-gray-800 mb-2">Teresa Magbanua</h4>
+                        <p class="text-gray-600 text-sm mb-4">Ang "Jeanne d'Arc ng Visayas" na naging heneral sa himagsikan.</p>
+                        <a href="https://youtu.be/kAdXqu6rxQg?si=5zBZzCGcD1peey9H" target="_blank" class="w-full bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-4 rounded-lg transition-colors block text-center">
+                            Panoorin ang Histomercial
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grade 10 Section -->
+            <div class="mb-12">
+                <h3 class="font-playfair text-2xl font-semibold text-gray-800 mb-6 text-center">Grade 10 - Mga Lider ng Modernong Pilipinas</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Ninoy at Cory Aquino -->
+                    <div class="poster-card rounded-2xl p-6 border border-gray-200 shadow-lg">
+                        <div class="rounded-xl h-64 mb-4 overflow-hidden">
+                            <img src="public/Grade 10/Ninoy at Cory Aquino.jpg" alt="Ninoy at Cory Aquino" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="font-playfair text-xl font-semibold text-gray-800 mb-2">Ninoy at Cory Aquino</h4>
+                        <p class="text-gray-600 text-sm mb-4">Ang mag-asawang naging simbolo ng People Power Revolution at pagbabalik ng demokrasya.</p>
+                        <a href="https://youtu.be/CusQqFvGODE?si=v4OdHa62tdiRv4Sk" target="_blank" class="w-full bg-yellow-600 hover:bg-yellow-700 text-white font-medium py-3 px-4 rounded-lg transition-colors block text-center">
+                            Panoorin ang Histomercial
+                        </a>
+                    </div>
+
+                    <!-- Ramon Magsaysay -->
+                    <div class="poster-card rounded-2xl p-6 border border-gray-200 shadow-lg">
+                        <div class="rounded-xl h-64 mb-4 overflow-hidden">
+                            <img src="public/Grade 10/Ramon Magsaysay.jpg" alt="Ramon Magsaysay" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="font-playfair text-xl font-semibold text-gray-800 mb-2">Ramon Magsaysay</h4>
+                        <p class="text-gray-600 text-sm mb-4">Ang "Pangulo ng Masa" na kilala sa kanyang integridad at malapit sa taumbayan.</p>
+                        <a href="https://youtu.be/bouobHBsKck" target="_blank" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 rounded-lg transition-colors block text-center">
+                            Panoorin ang Histomercial
+                        </a>
+                    </div>
+
+                    <!-- Leni Robredo -->
+                    <div class="poster-card rounded-2xl p-6 border border-gray-200 shadow-lg">
+                        <div class="bg-gradient-to-br from-pink-500 to-purple-600 rounded-xl h-64 mb-4 flex items-center justify-center">
+                            <div class="text-center text-white">
+                                <div class="text-6xl mb-2">🌸</div>
+                                <p class="font-semibold">Leni Robredo</p>
+                                <p class="text-sm mt-2 opacity-90"></p>No Poster Available</p>
+                            </div>
+                        </div>
+                        <h4 class="font-playfair text-xl font-semibold text-gray-800 mb-2">Leni Robredo</h4>
+                        <p class="text-gray-600 text-sm mb-4">Ang 14th Vice President ng Pilipinas at naging simbolo ng good governance at transparency.</p>
+                        <a href="https://youtu.be/unqweWTsbDU" target="_blank" class="w-full bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-4 rounded-lg transition-colors block text-center">
+                            Panoorin ang Histomercial
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Facebook Page Link -->
+        <section class="text-center bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl p-12 text-white">
+            <h3 class="font-playfair text-3xl font-semibold mb-4">
+                Makipag-ugnayan sa Amin
+            </h3>
+            <p class="text-lg mb-8 max-w-2xl mx-auto">
+                Sumali sa aming Facebook page para sa mga updates at higit pang mga histomercial.
+            </p>
+            <a href="https://www.facebook.com/profile.php?id=61553835584561" target="_blank" class="inline-flex items-center bg-white text-blue-600 font-semibold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">
+                <svg class="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+                JZGMNHS AP CLUB Facebook Page
+            </a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12 mt-16">
+        <div class="container mx-auto px-6">
+            <div class="text-center">
+                <h4 class="font-playfair text-2xl font-semibold mb-4">Buwan ng Kasaysayan 2025</h4>
+                <p class="text-gray-300 mb-6">"Diwa ng Kasaysayan, Kabilin sa Kabataan"</p>
+                <div class="decorative-border w-24 mx-auto mb-6"></div>
+                <p class="text-sm text-gray-400">
+                    © 2025 Histomercial Project. Ginawa para sa pagpapahalaga sa ating kasaysayan.
+                </p>
+                 </div>
+            </div>
+        </footer>
+    <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'97480e0de0d0bc52',t:'MTc1NjA5MzA4OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();  
+    </script>
+</body>
+</html>
